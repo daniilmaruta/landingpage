@@ -49,7 +49,9 @@
                 <a class="navbar-brand page-scroll" href="#page-top">Freifunk MYK</a>
             </div>
 
-            <!-- Collect the nav links, forms, and other content fUser
+            <!-- Collect the nav links, forms, and other content fUser -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav navbar-right">
                     <li class="hidden">
                         <a href="#page-top"></a>
                     </li>
@@ -349,6 +351,50 @@
     </section>
 
 
+    <!-- Contact Section -->
+    <section id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2 class="section-heading">Kontakt</h2>
+                    <h3 class="section-subheading text-muted">Nutzen Sie unser Kontaktformular oder tragen Sie sich in unsere Mailinglist ein.</h3>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-12">
+                    <form name="contactform" method="post" action="send_from_email.php" id="contactForm">
+                        <div class="row">
+                            <div class="col-md-6">
+                                <div class="form-group">
+                                    <input type="text" class="form-control" placeholder="Dein Name *" id="name" required data-validation-required-message="Bitte Name eintragen.">
+                                    <p class="help-block text-danger"></p>
+                                </div>
+                                <div class="form-group">
+                                    <input type="email" class="form-control" placeholder="E-Mail Adresse *" id="email" required data-validation-required-message="Bitte E-Mail Adresse eintragen.">
+                                    <p class="help-block text-danger"></p>
+                                </div>
+                                <div class="form-group">
+                                    <input type="tel" class="form-control" placeholder="Telefonnummer " id="phone" data-validation-required-message="Bitte trage eine Telefonnummer ein">
+                                    <p class="help-block text-danger"></p>
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="form-group">
+                                    <textarea class="form-control" placeholder="Deine Nachricht *" id="message" required data-validation-required-message="Please enter a message."></textarea>
+                                    <p class="help-block text-danger"></p>
+                                </div>
+                            </div>
+                            <div class="clearfix"></div>
+                            <div class="col-lg-12 text-center">
+                                <div id="success"></div>
+                                <button type="submit" class="btn btn-xl">Absenden</button>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
 
      <!-- Clients Aside -->
     <section id="clients">
@@ -386,7 +432,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-md-4">
-                    <span class="copyright">Copyright &copy; Freifunk-MYK 2015</span>
+                    <span class="copyright">Copyright &copy; Freifunk-MYK 2015</span> <span class="impressum"><a href="http://www.freifunk-myk.de/impressum.html"</span>
                 </div>
                 <div class="col-md-4">
                     <ul class="list-inline social-buttons">
