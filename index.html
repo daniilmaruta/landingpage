@@ -358,7 +358,7 @@
             <div class="row">
                 <div class="col-lg-12 text-center">
                     <h2 class="section-heading">Kontakt</h2>
-                    <h3 class="section-subheading text-muted">Nutzen Sie unser Kontaktformular oder tragen Sie sich in unsere Mailinglist ein.</h3>
+                    <h3 class="section-subheading text-muted">Nutzen Sie unser Kontaktformular oder tragen SIe sich in unsere Mailinglist ein.</h3>
                 </div>
             </div>
             <div class="row">
@@ -385,6 +385,11 @@
                                     <p class="help-block text-danger"></p>
                                 </div>
                             </div>
+                            <div class="col-lg-12 text-center">
+                              <div class="form-group datenschutz">
+                                <input type="checkbox" required data-validation-required-message="Ohne einverständnis können wir die Anfrage nicht verarbeiten!"> ich bin mit dem <a data-toggle="modal" data-target="#myModal">Datenschutz</a> einverstanden.
+                              </div>
+                            </div>
                             <div class="clearfix"></div>
                             <div class="col-lg-12 text-center">
                                 <div id="success"></div>
@@ -396,6 +401,32 @@
             </div>
         </div>
     </section>
+    <!-- Datenschutz -->
+    <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+            <h4 class="modal-title" id="myModalLabel">Datenschutz</h4>
+          </div>
+          <div class="modal-body">
+            <h4>Alles geht an die Mailinglist</h4>
+            Wir sind eine lose Gruppe die Freifunk in Mayen, Koblenz und Umgebung aufbauen möchten. Wir das alle betreiben Freifunk in unserer Freizeit
+            und nicht jeder teilt den selben Wissenstand, daher haben wir uns entschieden alle Anfragen an unsere Mailingliste zu senden. Hiermit gewährleisten
+            wir eine schnellst mögliche Antwort.<br>
+            Deine Frage sowie Kontaktdaten gehen an alle Abbonenten unser Mailinglist.
+
+            <h4>Wofür benötigen wir die Daten</h4>
+            Dein <strong>Name</strong> ist obligatorisch damit wir wissen wie wir dich Anreden sollen. Gerne kannst du an dieser Stelle auch einen Nickname verwenden.<br>
+            Deine <strong>E-Mail Adresse</strong> benötigen wir natürlich um auf deine Anfrage Antworten zu können.<br>
+            Das Feld für die <strong>Telefonnummer</strong> haben wir eingefügt um tringende angelegenheiten auch Telefonisch/Persönlicher klären zu können.
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-default" data-dismiss="modal">Schließen</button>
+          </div>
+        </div>
+      </div>
+    </div>
 
      <!-- Clients Aside -->
     <section id="clients">
